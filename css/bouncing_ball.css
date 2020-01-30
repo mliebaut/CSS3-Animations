@@ -1,0 +1,46 @@
+/****************************************/
+/**************BOUNCING BALL*************/
+/****************************************/
+
+#conteneurBall {
+    position: relative;
+    margin: auto;
+    width: 50px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+#ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: black;
+    border-radius: 50%;
+    left: 12px;
+    animation: bouncingBall 1s infinite
+
+}
+
+@keyframes bouncingBall {
+    /*
+    0% {top: 0; animation-timing-function: ease-in-out;}
+    8% {top: 183px; animation-timing-function: ease-in-out; animation-timing-function: ease-in-out;}
+    18% {top: 100px; animation-timing-function: ease-in-out;}
+    29% {top: 183px; animation-timing-function: ease-in-out;}
+    37% {top: 120px; animation-timing-function: ease-in-out;}
+    45% {top: 183px; animation-timing-function: ease-in-out;}
+    55% {top: 140px; animation-timing-function: ease-in-out;}
+    65% {top: 183px; animation-timing-function: ease-in-out;}
+    70% {top: 155px; animation-timing-function: ease-in-out;}
+    80% {top: 183px; animation-timing-function: ease-in-out;}
+    */
+    0%{top:0;animation-timing-function:ease-in;}
+    40%{}
+    50%{top:10px;animation-timing-function:ease-out;}
+    55%{top:183px;animation-timing-function:ease-in;}
+    65%{top:120px;animation-timing-function:ease-out;}
+    95%{top:0;animation-timing-function:ease-in;}
+    100%{top:0;animation-timing-function:ease-in;}
+
+
+}
