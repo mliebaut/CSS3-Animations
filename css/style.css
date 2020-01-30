@@ -25,10 +25,11 @@
     height: 150px;
     border: 2px solid black;
     margin: auto;
-    animation: colorSquare 5s infinite;
+    animation: colorSquare 8s linear infinite;
     animation-direction: alternate;
-    transition: transform 3s ease-in-out, background-color 1s ease-in-out; 
-    transform: rotate(360deg);
+    /*transition: transform 3s ease-in-out, background-color 1s ease-in-out; 
+    transform: rotate(360deg);*/
+    background-color 1s ease-in-out; 
     
 }
 
@@ -37,10 +38,10 @@
 }
 
 @keyframes colorSquare {
-    0%{background: rgb(132, 0, 255);}
+    0%{background: rgb(132, 0, 255);transform: rotate(0deg);}
     20%{background: rgb(255, 0, 212);}
     40%{background: rgb(132, 0, 255);}
     60%{background: rgb(255, 0, 221);}
     80%{background: rgb(132, 0, 255);}
-    100%{background: rgb(255, 0, 221);}
+    100%{background: rgb(255, 0, 221); transform: rotate(2160deg);}
 }
