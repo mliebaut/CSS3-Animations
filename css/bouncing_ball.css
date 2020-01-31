@@ -7,14 +7,14 @@
     margin: auto;
     width: 50px;
     height: 200px;
-    border: 2px solid black;
+    border: 2px solid rgb(105, 252, 252);
 }
 
 #ball {
     position: absolute;
     width: 20px;
     height: 20px;
-    background: black;
+    background: rgb(224, 149, 253);
     border-radius: 50%;
     left: 12px;
     animation: bouncingBall 3s infinite
@@ -24,8 +24,8 @@
 @keyframes bouncingBall {
     
     0% {top: 0; animation-timing-function: ease-in;}
-    8% {top: 180px; animation-timing-function: ease-out; animation-timing-function: ease-in;}
-    18% {top: 100px; animation-timing-function: ease-in-out;}
+    8% {top: 180px; animation-timing-function: ease-out;}
+    18% {top: 100px; animation-timing-function: ease-out;}
     29% {top: 180px; animation-timing-function: ease-in;}
     37% {top: 120px; animation-timing-function: ease-out;}
     45% {top: 180px; animation-timing-function: ease-in;}

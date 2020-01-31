@@ -6,15 +6,19 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: black;
+}
 .center {
     width: 800px;
     padding: 30px;
     margin: 50px auto;
-    border: 1px dashed black;
+    border: 1px dashed rgb(255, 255, 255);
 }
 
 .titles {
     text-align: center;
+    color: rgb(255, 255, 255);
 }
 /****************************************/
 /**************LOOPING SQUARE************/
@@ -23,18 +27,14 @@
 .rotateSquare {
     width: 150px;
     height: 150px;
-    border: 2px solid black;
+    border: 2px solid rgb(0, 225, 255);
     margin: auto;
     animation: colorSquare 8s linear infinite;
     animation-direction: alternate;
     /*transition: transform 3s ease-in-out, background-color 1s ease-in-out; 
     transform: rotate(360deg);*/
-    background-color 1s ease-in-out; 
+    background-color: 1s ease-in-out; 
     
-}
-
-.rotateSquare:hover {
-    transform:rotate(0deg);
 }
 
 @keyframes colorSquare {
