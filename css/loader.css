@@ -38,3 +38,41 @@
     margin-top: -50px;
     margin-left: 140px;
 }
+
+
+/****************************************/
+/****************ANIMATION***************/
+/****************************************/
+
+#point1 {
+    background-color: white;
+    animation-name: loader;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#point2 {
+    background-color: white;
+    animation-name: loader;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#point3 {
+    background-color: white;
+    animation-name: loader;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes loader {
+    0% {background-color: white;}
+    50% {background-color: grey;}
+    100% {background-color: black;}
+}
