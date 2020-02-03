@@ -21,9 +21,17 @@ body {
     margin: auto;
 }
 
+hr {
+    background-color: rgba(162, 89, 245, 0.747);
+    height: 3px;
+    border: none;
+}
+
 .titles {
     text-align: center;
     color: rgb(255, 255, 255);
+    font-family: monospace;
+    color: hotpink;
 }
 
 #palmtrees {
