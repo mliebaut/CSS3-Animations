@@ -2,3 +2,63 @@
 /******************QUEUE*****************/
 /****************************************/
 
+.queue {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+    margin: 20px;
+    padding: 0;
+}
+
+#conteneurQueue {
+    padding: 0;
+}
+
+#conteneurQueue p {
+    text-align: center;
+    font-size: small;
+}
+
+#p1 {
+    animation: queue 5s infinite;
+}
+
+#p2 {
+    top: -39px;
+    animation: queue 5s infinite;
+    animation-delay: 0.5s;
+}
+
+#p3 {
+    top: -80px;
+    animation: queue 5s infinite;
+    animation-delay: 1s;
+}
+
+#p4 {
+    top: -120px;    
+    animation: queue 5s infinite;
+    animation-delay: 1.5s;
+}
+
+#p5 {
+    top: -160px;    
+    animation: queue 5s infinite;
+    animation-delay: 2s;
+}
+
+#p6 {
+    top: -200px;    
+    animation: queue 5s infinite;
+    animation-delay: 2.5s;
+}
+
+@keyframes queue {
+    0% {transform: translateX(0px);}
+    25% {transform: translateX(525px);}
+    50% {transform: translate(525px, 200px);}
+    75% {transform: translate(0, 200px);}
+    100% {transform: translateX(0);}
+}

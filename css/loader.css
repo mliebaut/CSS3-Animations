@@ -73,6 +73,8 @@
 
 @keyframes loader {
     0% {background-color: white;}
+    25% {background-color: rgb(207, 207, 207);}
     50% {background-color: grey;}
+    75% {background-color: rgb(59, 59, 59);}
     100% {background-color: black;}
 }
