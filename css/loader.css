@@ -27,8 +27,6 @@
     padding: 0;
     margin-top: -50px;
     margin-left: 70px;
-
-
 }
 
 #point3 {
@@ -73,8 +71,6 @@
 
 @keyframes loader {
     0% {background-color: rgb(224, 122, 255);}
-
     50% {background-color: rgba(162, 89, 245, 0.747);}
-
     100% {background-color: black;}
 }

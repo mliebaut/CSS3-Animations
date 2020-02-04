@@ -10,8 +10,7 @@
     height: 200px;
     border: 2px solid rgb(105, 252, 252);
     background: rgb(78,255,205);
-    background: linear-gradient(180deg, rgba(78,255,205,1) 0%, rgba(139,0,255,1) 100%);
-    
+    background: linear-gradient(180deg, rgba(78,255,205,1) 0%, rgba(139,0,255,1) 100%);   
 }
 
 #ball {
@@ -22,11 +21,9 @@
     border-radius: 50%;
     left: 12px;
     animation: bouncingBall 3s infinite
-
 }
 
 @keyframes bouncingBall {
-    
     0% {top: 0; animation-timing-function: ease-in;}
     19% {top: 178px; animation-timing-function: ease-out;}
     34% {top: 40px; animation-timing-function: ease-in;}
@@ -37,27 +34,4 @@
     90% {top: 178px; animation-timing-function: ease-out;}
     94% {top: 160px; animation-timing-function: ease-in;}
     97% {top: 178px; animation-timing-function: ease-out;}
-
-    /*
-    
-    0%{top:0;animation-timing-function:ease-in;}
-    50%{top:10px;animation-timing-function:ease-out;}
-    55%{top:183px;animation-timing-function:ease-in;}
-    65%{top:120px;animation-timing-function:ease-out;}
-    95%{top:0;animation-timing-function:ease-in;}
-    100%{top:0;animation-timing-function:ease-in;}*/
-    
-
-    /*
-    0% {left: 29px; top: 20px;}
-    1% {left: 29px; top: 20px;}
-    9% {left: 0; top: 40px;}
-    18% {left: 29px; top: 60px;}
-    27% {left: 0; top: 80px;}
-    36% {left: 29px; top: 100px;}
-    45% {left: 0; top: 120px;}
-    54% {left: 29px; top: 140px;}
-    63% {left: 0; top: 160px;}
-    72% {left: 29px; top: 178px;}
-    */
 }

@@ -3,17 +3,17 @@
 /****************************************/
 
 #expandMenu {
-        background-color: black;
-        border: 3px solid fuchsia;
-        text-align: center;
-        color: fuchsia;
-        width: 150px;
-        height: 50px;
-        border-radius: 10px;
-        transition: width 2s ease-in-out;
+    margin: auto;
+    background-color: black;
+    border: 3px solid fuchsia;
+    text-align: center;
+    color: fuchsia;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    transition: width 2s ease-in-out;
 }
 
 #expandMenu:hover {
     width: 100%;
-
 }
