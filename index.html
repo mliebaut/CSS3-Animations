@@ -12,8 +12,16 @@
     ">
     <link rel="stylesheet" href="./css/expandedMenu.css">
     <title>Animations CSS3</title>
+    <script>
+        function partyTime() {
+            document.getElementById("audio").play();
+            document.getElementById("palmtrees").classList.add("dancing");
+            document.getElementById("palmtrees2").classList.add("dancing2");
+        }
+    </script>
 </head>
 <body>
+    <button onclick="partyTime()">PLAY</button>
     <div id="mainContainer">
         <p id="expandMenu">Menu</p>
         <audio controls autoplay id="audio">
@@ -21,6 +29,9 @@
         </audio>
         <div class="sticky">
             <img src="./media/palmtree.png" alt="palm trees" id="palmtrees">
+        </div>
+        <div class="sticky">
+            <img src="./media/palmtree.png" alt="palm trees" id="palmtrees2">
         </div>
         <h2 class="titles">//Spining Square</h2>
         <div class="center">

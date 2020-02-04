@@ -9,8 +9,8 @@
     width: 50px;
     height: 200px;
     border: 2px solid rgb(105, 252, 252);
-    background: rgb(238,174,202);
-    background: linear-gradient(180deg, rgba(238,174,202,1) 0%, rgba(148,187,233,0.6892698220064725) 100%);
+    background: rgb(78,255,205);
+    background: linear-gradient(180deg, rgba(78,255,205,1) 0%, rgba(139,0,255,1) 100%);
     
 }
 
@@ -18,7 +18,7 @@
     position: absolute;
     width: 20px;
     height: 20px;
-    background: rgb(224, 149, 253);
+    background:rgb(248, 88, 221);
     border-radius: 50%;
     left: 12px;
     animation: bouncingBall 3s infinite

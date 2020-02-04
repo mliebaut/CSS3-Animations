@@ -4,6 +4,7 @@
 
 * {
     box-sizing: border-box;
+    font-family: monospace;
 }
 
 body {
@@ -37,28 +38,40 @@ hr {
 
 #palmtrees {
     position: absolute;
-
     margin: 0;
     padding: 0;
+}
 
-    animation: slide 3s infinite;
+#palmtrees2 {
+    position: absolute;
+    right: 0;
+    transform: rotateY(180deg);
+}
+
+.dancing {
+    animation: slide 0.55s infinite;
+}
+
+.dancing2 {
+    animation: slide2 0.55s infinite;
 }
 
 #audio {
     position: absolute;
+    display: none;
 
 }
 
 @keyframes slide {
-    0% {transform: translateX(50px); filter: brightness(100%);}
-    5% {transform: translateX(50px);}
+    0% {transform: translateX(-50px); filter: brightness(100%);}
+    50% {filter: invert(100%); transform: translateX(50px) rotateY(180deg);}
+    100% {transform: translateX(-50px); filter: brightness(100%);}
+}
 
-    25% {transform: translateX(-50px);}
-    50% {filter: invert(100%);}
-    60% {transform: translateX(50px);}
-    80% {transform: translateX(-50px);}
+@keyframes slide2 {
+    0% {transform: translateX(50px) rotateY(180deg); filter: brightness(100%);}
+    50% {filter: invert(100%); transform: translateX(-50px) rotateY(180deg);}
     100% {transform: translateX(50px); filter: brightness(100%);}
-
 }
 
 div.sticky {

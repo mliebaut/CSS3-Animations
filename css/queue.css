@@ -60,16 +60,16 @@
 }
 
 @keyframes queue {
-    0% {transform: translateX(0px); background-color: rgb(252, 91, 42);}
+    0% {transform: translateX(0px) rotate(0deg); background-color: rgb(252, 91, 42);}
     15% {background-color: rgb(216, 91, 241);}
-    25% {transform: translateX(525px); background-color: rgb(149, 106, 250);}
+    25% {transform: translateX(525px) rotate(360deg); background-color: rgb(149, 106, 250);}
     35% {background-color: rgb(122, 122, 240);}
     45% {background-color: rgb(66, 66, 243);}
-    50% {transform: translate(525px, 200px);}
+    50% {transform: translate(525px, 200px) rotate(720deg);}
     55% {background-color: rgb(0, 183, 255);}
     65% {background-color: rgb(0, 255, 242);}
-    75% {transform: translate(0, 200px); background-color: rgb(0, 255, 170);}
+    75% {transform: translate(0, 200px) rotate(1080deg); background-color: rgb(0, 255, 170);}
     85% {background-color: rgb(165, 255, 62);}
     95% {background-color: rgb(250, 246, 44);}
-    100% {transform: translateX(0); background-color: rgb(255, 166, 0);}
+    100% {transform: translateX(0) rotate(1440deg); background-color: rgb(255, 166, 0);}
 }
