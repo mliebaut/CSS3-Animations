@@ -105,3 +105,46 @@ div.sticky {
     80%{background: rgb(132, 0, 255);}
     100%{background: rgb(255, 0, 221); transform: rotate(2160deg);}
 }
+
+
+/****************************************/
+/**************POP-UP************/
+/****************************************/
+
+.popupOverlay {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99999999;
+    background-color: rgba(0, 0, 0, 0.863);
+}
+
+.popup {
+     position: absolute;
+     top: 400px;
+     left: 800px;
+     width: 300px;
+     height: 100px;
+     background-color: rgba(255, 0, 255, 90%);
+     border-radius: 10px;
+     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.452);
+}
+
+#close {
+    position: absolute;
+    width: 100px;
+    height: 35px;
+    top: 32px;
+    left: 100px;
+    border: 2px solid rgb(0, 225, 255);
+    background-color: black;
+    color: fuchsia;
+}
+
+#close:hover {
+    border: inset 2px rgb(0, 225, 255);
+}

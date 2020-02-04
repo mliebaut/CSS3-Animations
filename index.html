@@ -12,16 +12,15 @@
     ">
     <link rel="stylesheet" href="./css/expandedMenu.css">
     <title>Animations CSS3</title>
-    <script>
-        function partyTime() {
-            document.getElementById("audio").play();
-            document.getElementById("palmtrees").classList.add("dancing");
-            document.getElementById("palmtrees2").classList.add("dancing2");
-        }
-    </script>
 </head>
 <body>
-    <button onclick="partyTime()">PLAY</button>
+    <!-- pop-up -->
+    <div class="popupOverlay">
+        <div class="popup">
+            <button onclick="partyTime()" id="close" class="btn">PRESS ME</button>
+        </div>
+    </div>
+    <!-- pop-up -->
     <div id="mainContainer">
         <p id="expandMenu">Menu</p>
         <audio controls autoplay id="audio">
@@ -80,5 +79,19 @@
             </div>
         </div>
     </div>
+    <script>
+        function partyTime() {
+            document.getElementById("audio").play();
+            document.getElementById("palmtrees").classList.add("dancing");
+            document.getElementById("palmtrees2").classList.add("dancing2");
+        }
+        
+        const closeBtn = document.querySelector('#close');
+        const popupOverlay = document.querySelector('.popupOverlay');
+
+        closeBtn.addEventListener('click', function (){
+            popupOverlay.style.display = 'none';
+        });
+    </script>
 </body>
 </html>
