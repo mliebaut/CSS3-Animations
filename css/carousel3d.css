@@ -79,7 +79,6 @@
 /*****************KEYFRAME***************/
 /****************************************/
 
-
 @keyframes turn {
     0% {
         transform: rotateY(0deg) rotateX(0deg);
