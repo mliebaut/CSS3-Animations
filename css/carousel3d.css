@@ -75,6 +75,13 @@
     position: relative;
 }
 
+#containCar {
+    position: relative;
+    top: 259px;
+    left: 68px;
+    animation: containCar 2s infinite linear;
+}
+
 /****************************************/
 /*****************KEYFRAME***************/
 /****************************************/
@@ -109,4 +116,9 @@
         top: 80px;
         left: 110px;
 	}
+}
+
+@keyframes containCar {
+    0% {transform: rotate(360deg);}
+    100% {transform: rotate(0deg);}
 }
